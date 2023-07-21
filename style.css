@@ -55,10 +55,20 @@ body * {
   border-radius: 50%;
 }
 
-#profile p {
+#profile p  {
   font-weight: 500;
   line-height: 24px;
   margin: 8px 0 24px 0;
+}
+
+#name {
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#name:hover {
+  background: var(--highlight-color)
+  
 }
 
 #switch{
