@@ -1,67 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/logo-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <title>Lounge Odontologia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
-  <title>Lounge Odontologia</title>
-  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/logo-removebg-preview.png"
+          alt="logo da Louge Odontologia"
+        />
+        <p>
+          <a
+            href="https://www.instagram.com/loungeodontologia/"
+            target="_blank"
+            id="name"
+            rel="noopener"
+            >@loungeodontologia</a
+          >
+        </p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <a
+            href="https://api.whatsapp.com/send?phone=61996263616&text=Quero%20agendar%20uma%20consulta!"
+            target="_blank"
+            rel="noopener"
+            >Agende sua avaliação</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/dr.murilosalas"
+            target="_blank"
+            rel="noopener"
+            >Instagram do Dr. Murilo Salas</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/loungeodontologia/"
+            target="_blank"
+            rel="noopener"
+            >Instagram da Lounge Odontologia</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://ul.waze.com/ul?place=ChIJJ6XbFPIzWpMRdbWBOv3qR1o&ll=-15.83904690%2C-48.02720060&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+            target="_blank"
+            rel="noopener"
+            >Localização</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a
+          href="https://api.whatsapp.com/send?phone=61996263616&text=Quero%20agendar%20uma%20consulta!"
+          target="_blank"
+          rel="noopener"
+        >
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+        <a
+          href="https://www.instagram.com/dr.murilosalas"
+          target="_blank"
+          rel="noopener"
+        >
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a
+          href="https://www.tiktok.com/@drmurilosalas/"
+          target="_blank"
+          rel="noopener"
+        >
+          <ion-icon name="logo-tiktok"></ion-icon>
+        </a>
+        <a
+          href="https://ul.waze.com/ul?place=ChIJJ6XbFPIzWpMRdbWBOv3qR1o&ll=-15.83904690%2C-48.02720060&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+          target="_blank"
+          rel="noopener"
+        >
+          <ion-icon name="location-outline"></ion-icon>
+        </a>
+      </div>
 
-</head>
-
-<body>
-  <div id="container">
-    <div id="profile">
-      <img src="./assets/logo.jpeg" alt="logo da Louge Odontologia">
-      <p>
-        <a href="https://www.instagram.com/loungeodontologia/" target="_blank" id="name">@loungeodontologia</a>
-      </p>
+      <footer>&copy; copyright | Salas Tech 2023</footer>
     </div>
-    <div id="switch" onclick="toggleMode()">
-      <button></button>
-      <span></span>
-    </div>
-    <ul>
-      <li>
-        <a href="https://api.whatsapp.com/send?phone=5561996263616&text=" target="_blank">Agende sua avaliação</a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/dr.murilosalas" target="_blank">Instagram Dr. Murilo Salas</a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/loungeodontologia/" target="_blank">Instagram Lounge Odontologia</a>
-      </li>
-      <li>
-        <a href="https://ul.waze.com/ul?place=ChIJJ6XbFPIzWpMRdbWBOv3qR1o&ll=-15.83904690%2C-48.02720060&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank">Localização</a>
-      </li>
 
-    </ul>
-    <div id="social-links">
-      <a href="https://api.whatsapp.com/send?phone=5561996263616&text=" target="_blank">
-        <ion-icon name="logo-whatsapp"></ion-icon>
-      </a>
-      <a href="https://www.instagram.com/dr.murilosalas" target="_blank">
-        <ion-icon name="logo-instagram"></ion-icon>
-      </a>
-      <a href="https://www.tiktok.com/@drmurilosalas/" target="_blank">
-        <ion-icon name="logo-tiktok"></ion-icon>
-      </a>
-      <a href="https://ul.waze.com/ul?place=ChIJJ6XbFPIzWpMRdbWBOv3qR1o&ll=-15.83904690%2C-48.02720060&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank">
-        <ion-icon name="location-outline"></ion-icon>
-      </a>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
 
-    </div>
-
-    <footer>&copy; Salas Tech 2023 </footer>
-  </div>
-
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script src="./script.js"></script>
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
 </html>

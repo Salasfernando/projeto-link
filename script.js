@@ -8,9 +8,9 @@ function toggleMode() {
 
   // Se tiver light mode, adicionar a imagem light
   if(html.classList.contains('light')) {
-    img.setAttribute('src', './assets/logo-com-nome.jpeg')
+    img.setAttribute('src', './assets/logo-removebg-preview.png')
   } else {
   // se tiver sem light mode, manter a imagem normal 
-  img.setAttribute('src', './assets/logo.jpeg')
+  img.setAttribute('src', './assets/logo-removebg-preview.png')
 }
 }
